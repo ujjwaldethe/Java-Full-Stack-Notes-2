@@ -1,4 +1,4 @@
-package Principles_Of_OOP.Relationship.Has_A_Relationship;
+package Principles_Of_OOP.Relationship.Has_A_Relationship.Tight_Coupling;
 
 public class Pen {
 	String brand;
