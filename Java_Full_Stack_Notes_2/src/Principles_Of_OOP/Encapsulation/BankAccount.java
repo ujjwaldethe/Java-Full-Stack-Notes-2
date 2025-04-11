@@ -8,13 +8,38 @@ class BankAccount {
 	private int pin;
 	private String ifsc;
 	private double balance;
+	private long phNo;
+	private long aadhar;
 	
-	public BankAccount(String userName,String bankName,long accno,int pin,String ifsc) {
+	public BankAccount(String userName,String bankName,long accno,int pin,String ifsc,long phNo,long aadhar) {
 		this.userName = userName;
 		this.bankName = bankName;
 		this.accno = accno;
 		this.pin = pin ;
 		this.ifsc = ifsc;
+		this.phNo=phNo;
+		this.aadhar=aadhar;
+		System.out.println("Bank Account Created");
+	}
+	public long getPhoneNumber()
+	{
+		return phNo;
+	}
+	public void setPhoneNumber(long aadhar,long phNo)
+	{
+		if(this.aadhar==aadhar)
+		{
+			this.phNo=phNo;
+			System.out.println("Phone Number Updated");
+		}
+		else
+		{
+			System.out.println("Invalid Details");
+		}
+	}
+	public long getAadhar()
+	{
+		return aadhar;
 	}
 	public String getUserName()
 	{
