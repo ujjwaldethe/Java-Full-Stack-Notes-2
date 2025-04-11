@@ -31,5 +31,6 @@ public class Mobile {
 		System.out.println(name);
 		System.out.println(price);
 		System.out.println(type);
+		System.out.println(simStatus);
 	}
 }

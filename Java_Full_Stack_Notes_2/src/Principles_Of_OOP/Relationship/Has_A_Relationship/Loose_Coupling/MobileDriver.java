@@ -7,6 +7,7 @@ public class MobileDriver {
 		m.displayMobile();
 		m.insertSim();
 		m.s.displaySim();
+		m.displayMobile();
 	}
 
 }
